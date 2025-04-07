@@ -11,7 +11,7 @@ namespace tpmodul7_kelompok_3
 
         public static void ReadJSON()
         {
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tp7_2_103022300093.json");
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tp7_2_10302230003.json");
 
             if (!File.Exists(filePath))
             {
