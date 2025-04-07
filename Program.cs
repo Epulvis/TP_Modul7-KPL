@@ -1,7 +1,9 @@
-﻿internal class Program
+﻿using tpmodul7_kelompok_3;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        DataMahasiswa103022300057.ReadJSON("tp7_1_103022300057.json");
     }
 }
