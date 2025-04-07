@@ -1,7 +1,10 @@
-﻿internal class Program
+﻿class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        DataMahasiswa103022300073.ReadJson();
+
+        
     }
 }
+
