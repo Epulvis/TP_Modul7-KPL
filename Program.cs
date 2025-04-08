@@ -1,7 +1,10 @@
-﻿internal class Program
+﻿class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
+        DataMahasiswa103022300073.ReadJson();
+        KuliahMahasiswa103022300073.ReadJSON();
+
         //Console.WriteLine("Hello, World!");
         DataMahasiswa103022330008.ReadJSON();
         KuliahMahasiswa103022330008.ReadJSON();
@@ -10,3 +13,4 @@
         KuliahMahasiswa1030223300114.ReadJSON();
     }
 }
+
