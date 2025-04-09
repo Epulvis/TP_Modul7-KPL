@@ -32,6 +32,18 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
 
+
+    <None Remove="tp7_1_103022300093.json" />
+    <None Remove="tp7_2_103022300093.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="tp7_1_103022300093.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="tp7_2_103022300093.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
